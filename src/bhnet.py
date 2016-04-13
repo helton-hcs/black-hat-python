@@ -1,4 +1,4 @@
-#! /usr/bin/python2.7
+#!/usr/bin/python2.7
 
 import sys
 import socket
@@ -213,4 +213,4 @@ def main():
     if listen:
         server_loop()
 
-    main()
+main()
